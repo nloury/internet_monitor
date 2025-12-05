@@ -1,7 +1,7 @@
 import logging
 import inspect
 import datetime as dt
-from app import LOGGING_PATH
+from .. import LOGGING_PATH
 
 
 class CustomLogging(logging.Logger):

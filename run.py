@@ -1,4 +1,4 @@
-from .monitor.monitor_connection import MonitorConnection
+from internet_monitor.monitor_connection import MonitorConnection
 
 def main():
     monitor = MonitorConnection()

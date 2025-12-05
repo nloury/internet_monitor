@@ -2,6 +2,11 @@
 *.sqlite
 */Database
 
+# Ignore all logs but keep the folder
+logs/*
+!logs/.gitkeep
+*.log
+
 # Windows files
 desktop.ini
 

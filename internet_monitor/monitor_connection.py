@@ -3,7 +3,7 @@ import socket
 import datetime as dt
 import time
 import random
-from app.utils.log import CustomLogging
+from .utils.log import CustomLogging
 
 
 class MonitorConnection:
